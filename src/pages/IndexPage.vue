@@ -18,8 +18,8 @@
       <q-input
         filled
         v-model="name"
-        label="Yourname"
-        hint="Name and lastname"
+        label="Yourname 1"
+        hint="Name and lastname 1"
         lazy-rules
         :rules="[ val => val && val.length > 0 || 'Please enter name and lastname']"
       />
